@@ -1,0 +1,54 @@
+@import './fonts';
+@import './colors';
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Manrope";
+    background-color: $dark-blue;
+}
+.splitter-img {
+    display: block;
+    margin-inline: auto;
+}
+
+.article {
+    background-color: $dark-grayish-blue;
+    padding: 2rem 2rem 0 2rem;
+    border-radius: 1rem;
+    max-width: 510px;
+}
+
+.advice-number {
+    color: $neon-green;
+    letter-spacing: .3rem;
+    margin-bottom: 1.5rem;
+}
+
+.dice-container {
+    margin-inline: auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $neon-green;
+    width:  60px;
+    height: 60px;
+    border-radius: 50%;
+    transform: translateY(30px);
+    border: 0;
+    transition: all 0.1s;
+    
+}
+.dice-container:hover {
+    box-shadow: 0 0 40px $neon-green;
+}
+
+.advice {
+    font-size: 28px;
+    color: $light-cyan;
+}   
+.advice-container {
+    margin-bottom: 2.5rem;
+}
